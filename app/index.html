@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="assets/fb-inputs.css">
 
     {{content-for "head-footer"}}
+    <style type="text/css">
+      input:disabled, textarea:disabled {
+        background-color: grey;
+      }
+    </style>
   </head>
   <body>
     {{content-for "body"}}
